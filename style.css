@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#black {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 0px;
+}
+#green {
+    background-color:#53b050;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 0px;
+    border-style: none;
+}
+.card {
+    align-items: center;
+    border: none;
+    margin: 10px;
+    width: 300px;
+}
+.list-group {
+    width: 300px;
+    margin: 16px;
+}
+.card-header {
+    font-size: 26px;
+    background-color: #eeeeee;
+}
+.card-header, .list-group-item{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.list-group-item {
+    font-weight: 600;
+}
+.btn {
+    border-style: none;
+    border-radius: 0 !important;
+    background-color:#53b050;
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+}
